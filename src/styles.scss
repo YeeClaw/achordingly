@@ -1,3 +1,16 @@
-view {
+/* Main variables! */
+$primary-color: #7FB285; /* Cambridge blue */
+$primary-accent: #2E4428; /* Cal Poly green */
+$secondary-color: #7A82AB; /* Cool gray */
+$base-color-dark: #2E2A29; /* Jet */
+$base-color-light: #F5F3F5; /* White smoke */
+
+.view-dark {
+  width: 100%;
+  height: 100%;
   background-color: black;
+}
+
+text {
+  color: whitesmoke;
 }
