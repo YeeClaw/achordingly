@@ -1,0 +1,15 @@
+@function theme($key) {
+  @return map-get($current-theme, $key);
+}
+
+$light-theme: (
+  bg: #ffffff,
+  text: #111111,
+  primary: #007bff
+); 
+
+$dark-theme: (
+  bg: #111111,
+  text: #ffffff,
+  primary: #0d6efd
+);
